@@ -236,7 +236,6 @@ ul {
   padding: 0;
 }
 
-/* Header */
 .header {
   padding: 71px 183px 92px 168px;
 }
@@ -264,7 +263,6 @@ ul {
   font-weight: 400;
 }
 
-/* Hero */
 .hero {
   padding: 0 147px 66px;
 }
@@ -319,7 +317,6 @@ ul {
   font-size: 14px;
 }
 
-/* Button */
 .button {
   background-color: var(--background-color);
   color: var(--article-text-color);
