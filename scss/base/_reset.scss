@@ -1,3 +1,4 @@
+
 html,
 body,
 div,
@@ -87,8 +88,6 @@ video {
 	vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-
 article,
 aside,
 details,
@@ -103,10 +102,6 @@ section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
-
 ol,
 ul {
 	list-style: none;
@@ -117,23 +112,19 @@ q {
 	quotes: none;
 }
 
-blockquote {
-	&:before,
-	&:after {
-		content: '';
-		content: none;
-	}
-}
-
-q {
-	&:before,
-	&:after {
-		content: '';
-		content: none;
-	}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
 }
 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
 }

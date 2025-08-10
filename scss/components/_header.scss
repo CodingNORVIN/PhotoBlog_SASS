@@ -1,6 +1,6 @@
+@use '../base/reset' as *;
 @use '../utils/variables' as *;
 @use '../base/base' as *;
-@use '../base/reset' as *;
 
 .header {
 	padding: 71px 183px 92px 168px;
@@ -9,20 +9,16 @@
 		display: flex;
 		align-items: center;
 		gap: 99px;
-		list-style-type: none;
+		margin: 0 auto;
+		list-style: none;
 		text-transform: uppercase;
+		color: $paragraph-color;
 		justify-content: center;
 	}
 
 	&__link {
 		color: $paragraph-color;
 		line-height: 18.66px;
-		font-weight: inherit;
-		font-size: 14px;
 		font-weight: 400;
-
-		&:hover {
-			color: $link-color;
-		}
 	}
 }
